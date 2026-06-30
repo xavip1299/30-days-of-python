@@ -1,0 +1,26 @@
+2026-06-29 08:12:03 [INFO] app=LojaOnline user=system ip=127.0.0.1 endpoint=/startup msg="Aplicação iniciada com sucesso"
+2026-06-29 08:13:21 [INFO] app=LojaOnline user=bruno ip=192.168.1.14 endpoint=/login msg="Login efetuado"
+2026-06-29 08:14:02 [INFO] app=LojaOnline user=bruno ip=192.168.1.14 endpoint=/produtos msg="Lista de produtos consultada"
+2026-06-29 08:15:44 [WARNING] app=LojaOnline user=ana ip=192.168.1.22 endpoint=/login msg="Tentativa de login falhada"
+2026-06-29 08:16:10 [WARNING] app=LojaOnline user=ana ip=192.168.1.22 endpoint=/login msg="Tentativa de login falhada"
+2026-06-29 08:17:05 [ERROR] app=LojaOnline user=ana ip=192.168.1.22 endpoint=/login code=AUTH_401 msg="Credenciais inválidas"
+2026-06-29 08:20:32 [INFO] app=LojaOnline user=bruno ip=192.168.1.14 endpoint=/carrinho msg="Produto adicionado ao carrinho" produto_id=104 quantidade=2
+2026-06-29 08:22:11 [INFO] app=LojaOnline user=bruno ip=192.168.1.14 endpoint=/checkout msg="Checkout iniciado" total=49.98
+2026-06-29 08:23:09 [ERROR] app=LojaOnline user=bruno ip=192.168.1.14 endpoint=/pagamento code=PAY_500 msg="Erro ao processar pagamento"
+2026-06-29 08:24:55 [INFO] app=LojaOnline user=bruno ip=192.168.1.14 endpoint=/pagamento msg="Pagamento repetido com sucesso" total=49.98
+2026-06-29 09:01:18 [INFO] app=LojaOnline user=marta ip=192.168.1.30 endpoint=/login msg="Login efetuado"
+2026-06-29 09:03:47 [INFO] app=LojaOnline user=marta ip=192.168.1.30 endpoint=/perfil msg="Perfil atualizado"
+2026-06-29 09:05:12 [WARNING] app=LojaOnline user=marta ip=192.168.1.30 endpoint=/perfil msg="Campo telefone vazio"
+2026-06-29 09:15:40 [INFO] app=LojaOnline user=admin ip=10.0.0.5 endpoint=/admin/users msg="Consulta de utilizadores"
+2026-06-29 09:17:22 [ERROR] app=LojaOnline user=admin ip=10.0.0.5 endpoint=/admin/reports code=DB_503 msg="Base de dados indisponível"
+2026-06-29 09:18:01 [INFO] app=LojaOnline user=system ip=127.0.0.1 endpoint=/health msg="Serviço voltou ao normal"
+2026-06-29 10:02:33 [INFO] app=LojaOnline user=joao ip=192.168.1.45 endpoint=/login msg="Login efetuado"
+2026-06-29 10:05:19 [INFO] app=LojaOnline user=joao ip=192.168.1.45 endpoint=/produtos msg="Produto pesquisado" pesquisa="teclado"
+2026-06-29 10:06:41 [WARNING] app=LojaOnline user=joao ip=192.168.1.45 endpoint=/produtos msg="Produto sem stock" produto_id=210
+2026-06-29 10:09:58 [INFO] app=LojaOnline user=joao ip=192.168.1.45 endpoint=/logout msg="Logout efetuado"
+2026-06-29 11:11:07 [ERROR] app=LojaOnline user=guest ip=203.0.113.77 endpoint=/admin code=SEC_403 msg="Acesso negado a área administrativa"
+2026-06-29 11:12:43 [WARNING] app=LojaOnline user=guest ip=203.0.113.77 endpoint=/login msg="Tentativa suspeita de login"
+2026-06-29 11:13:21 [WARNING] app=LojaOnline user=guest ip=203.0.113.77 endpoint=/login msg="Tentativa suspeita de login"
+2026-06-29 11:14:02 [ERROR] app=LojaOnline user=guest ip=203.0.113.77 endpoint=/login code=SEC_429 msg="Muitas tentativas de login"
+2026-06-29 12:00:00 [INFO] app=LojaOnline user=system ip=127.0.0.1 endpoint=/backup msg="Backup automático iniciado"
+2026-06-29 12:02:36 [INFO] app=LojaOnline user=system ip=127.0.0.1 endpoint=/backup msg="Backup automático concluído" duracao_segundos=156
